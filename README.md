@@ -1,16 +1,16 @@
 # SQL_AppStore
 ## Project Context:
-We have a csv file called applestore.csv which I got from kaggle. It gives a lot of information about apps like names, size, ratings, number of supporting devices, no. of supporting languages and much more.
+We have a CSV file called applestore.csv, which I got from Kaggle. It gives a lot of information about apps like names, sizes, ratings, the number of supported devices, the number of supported languages, and much more.
 
-But there's another dataset called applestore_description.csv which contains overview of each application description
+But there's another dataset called applestore_description.csv, which contains an overview of each application description
 
-RDBMS: SQLLite
+RDBMS: SQLite
 
 After SQL Exploration, final Recommendations for clients:
-- Paid apps generally achieves higher rates than the free apps
-- Our analysis found that apps supporting a modern no. of languages between 10 and 30 at a highest average rating
+- Paid apps generally achieve higher rates than free apps
+- Our analysis found that apps supporting a modern number of languages between 10 and 30 at the highest average rating
 - Finance and book apps have low user ratings
-- The length of the app description has a positive correlation with the user ratings, so users likely appreciate having a clear understanding of the app's features and capabilities before they download and so a detailed well crafted app description can set click expectation and eventually increase the satisfaction of users
+- The length of the app description has a positive correlation with the user ratings, so users likely appreciate having a clear understanding of the app's features and capabilities before they download and so a detailed well-crafted app description can set click expectations and eventually increase the satisfaction of users
 
 ## Screenshots
 ![Screenshot (127)](https://github.com/SIDDHARTH107/SQL_AppStore/assets/103374957/4e9fac87-079f-407a-982b-42ebb90632ec)
